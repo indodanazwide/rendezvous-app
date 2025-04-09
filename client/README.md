@@ -32,25 +32,6 @@ npm run dev
 
 This will start the app on [http://localhost:5173](http://localhost:5173) by default.
 
-## 📁 Folder Structure
-
-```
-client/
-├── public/               # Static assets
-├── src/
-│   ├── assets/           # Images, icons
-│   ├── components/       # Reusable UI components
-│   ├── pages/            # Page-level components (Menu, Reservations, Events, etc.)
-│   ├── styles/           # Sass styles if needed
-│   ├── App.jsx           # Main App entry
-│   └── main.jsx          # App bootstrap
-├── index.html            # HTML template
-├── tailwind.config.js    # Tailwind config
-├── vite.config.js        # Vite config
-├── eslint.config.js      # ESLint rules
-└── README.md             # This file
-```
-
 ## ✨ Planned Features
 - Dynamic menu display
 - Online reservation form

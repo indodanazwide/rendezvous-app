@@ -74,6 +74,31 @@ Make sure you configure `.env` files in the `server/` directory as explained in 
   
 - **Database**: Use a managed MySQL database from [Render](https://render.com), [Railway](https://railway.app), or another service.
 
+## 📁 Folder Structure
+
+```
+.
+├── client
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── node_modules
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── public
+│   ├── README.md
+│   ├── src
+│   ├── tailwind.config.js
+│   └── vite.config.js
+├── LICENSE
+├── README.md
+└── server
+    ├── node_modules
+    ├── package.json
+    ├── package-lock.json
+    ├── README.md
+    └── server.js
+```
+
 ## Author
 **Bukeka Olwethu Nxumalo**  
 `22289351` - Durban University of Technology

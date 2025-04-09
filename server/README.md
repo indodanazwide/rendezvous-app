@@ -43,17 +43,6 @@ npm run dev
 
 This uses `nodemon` to auto-restart on file changes.
 
-## 📁 Folder Structure
-
-```
-server/
-├── server.js           # Entry point for Express server
-├── package.json        # Backend dependencies
-├── node_modules/       # Installed packages
-├── .env                # Environment variables (should be created)
-└── README.md           # This file
-```
-
 ## 🚀 Available Endpoints (Coming Soon)
 - `GET /api/menu`
 - `POST /api/reservations`
