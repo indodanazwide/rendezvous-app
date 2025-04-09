@@ -26,67 +26,34 @@ The purpose of this project is to create a comprehensive and user-friendly web a
 
 ## Technologies Used
 
-- **Frontend**:
-  - React.js with Vite for fast build times and a modern JavaScript framework.
-  - Tailwind CSS for utility-first styling and responsive design.
-  
-- **Backend**:
-  - Node.js with Express for the server-side logic and RESTful API.
-  - MySQL for data storage (e.g., menu items, reservations, feedback).
-  
-- **Deployment**:
-  - Frontend: Vercel or Netlify (choose based on preference).
-  - Backend: Render, Railway, or Heroku (choose based on preference).
-  - Database: Render or Railway for a managed MySQL service.
+| Frontend         | Backend          | Database | Deployment    |
+|------------------|------------------|----------|----------------|
+| React + Vite     | Node.js + Express| MySQL    | Vercel (FE), Railway (BE) |
+| Tailwind + Sass  | REST API         |          |                |
 
-## Setup Instructions
 
-### Frontend Setup
+## Getting Started
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/indodanazwide/rendezvous-restaurant.git
-   cd rendezvous-restaurant/frontend
-   ```
+Clone the repository:
+```bash
+git clone https://github.com/indodanazwide/rendezvous-app.git
+```
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+Set up frontend:
+```bash
+cd rendezvous-app/client
+npm install
+npm run dev
+```
 
-3. Start the development server:
-   ```bash
-   npm run dev
-   ```
+Set up backend:
+```bash
+cd ../server
+npm install
+npm run dev
+```
 
-   The frontend should be running at `http://localhost:3000`.
-
-### Backend Setup
-
-1. Navigate to the backend directory:
-   ```bash
-   cd ../backend
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Set up your database connection in `.env` (example below):
-   ```plaintext
-   DB_HOST=localhost
-   DB_USER=your_mysql_username
-   DB_PASSWORD=your_mysql_password
-   DB_NAME=rendezvous
-   ```
-
-4. Start the backend server:
-   ```bash
-   npm start
-   ```
-
-   The backend API should be running at `http://localhost:5000`.
+Make sure you configure `.env` files in the `server/` directory as explained in its README.
 
 ## Database Setup
 
@@ -107,23 +74,11 @@ The purpose of this project is to create a comprehensive and user-friendly web a
   
 - **Database**: Use a managed MySQL database from [Render](https://render.com), [Railway](https://railway.app), or another service.
 
-## Project Structure
+## Author
+**Bukeka Olwethu Nxumalo**  
+`22289351` - Durban University of Technology
 
-The project is organized as follows:
-
-```
-rendezvous-restaurant/
-├── backend/             # Backend (Node.js + Express)
-│   ├── server.js        # Express server
-│   ├── package.json     # Backend dependencies
-│   ├── .env             # Environment variables
-├── frontend/            # Frontend (React + Vite + Tailwind CSS)
-│   ├── src/             # React components
-│   ├── public/          # Public assets
-│   ├── package.json     # Frontend dependencies
-│   ├── tailwind.config.js
-└── README.md            # Project documentation
-```
+> This project is part of a full-stack professional solution designed for real-world deployment at DUT.
 
 ## Contributing
 
