@@ -1,6 +1,6 @@
 # Rendezvous Restaurant Web Application
 
-A full-stack web application for **Rendezvous Restaurant** built to streamline operations such as reservations, menu display, order management, feedback collection, and business intelligence (BI) dashboards. This project is developed using modern web technologies including **React**, **Node.js**, **Express**, and **MySQL**.
+A full-stack web application for **Rendezvous Restaurant** built to streamline operations based on systems.
 
 ## Table of Contents
 
@@ -19,10 +19,10 @@ A full-stack web application for **Rendezvous Restaurant** built to streamline o
 
 The purpose of this project is to create a comprehensive and user-friendly web application for **Rendezvous Restaurant**. Key features include:
 
-- Dynamic menu showcasing current offerings
-- Online reservation system with confirmation notifications
-- Event calendar with RSVP capabilities
-- Customer feedback form for reviews and ratings
+- Authentication system
+- Reservation system
+- Review system
+- Ordering system
 
 ## Technologies Used
 
